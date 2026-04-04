@@ -1,7 +1,7 @@
 <div align="center">
   <!-- 替換這張圖片的 URL 為 NUCLEUS.IO 飛船的超帥截圖或 GIF！ -->
   <!-- 建議尺寸: 1200x400 -->
-  <img src="https://via.placeholder.com/1200x400/0f0a14/ff5352/?text=ROY+WANG+%7C+AI+APPLICATION+ENGINEER" alt="Roy Wang Banner" style="border-radius: 12px;" />
+  <img src="https://raw.githubusercontent.com/RoyWG925/RoyWG925/main/assets/banner.jpg" alt="Roy Wang - Deep Space Header" style="border-radius: 12px; width: 100%; max-width: 1000px;" />
   <br/><br/>
 
   <h1>Roy Wang (王語揚)</h1>
