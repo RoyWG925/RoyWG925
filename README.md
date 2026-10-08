@@ -20,4 +20,4 @@ Product-minded engineer from Taiwan, building AI-powered tools and interactive w
 Python · PyTorch · Hugging Face · TypeScript · React · Astro · Three.js · Supabase · Vercel
 
 ### Contact
-[Portfolio](https://roywg925.github.io/portfolio-astro/) · [LinkedIn](https://www.linkedin.com/in/roy-wang-258b082b9/) · jg971402@gmail.com
+[Portfolio](https://roywg925.github.io/portfolio-astro/) · [LinkedIn](https://www.linkedin.com/in/roywg925/) · jg971402@gmail.com
