@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '35 * * * *'
   workflow_dispatch:
+    inputs:
+      source_commit:
+        description: 'Optional immutable builder-context commit (40 hex characters); blank uses main'
+        required: false
+        type: string
   push:
     branches: [main]
     paths: ['scripts/sync-identity.mjs', '.github/workflows/sync-identity.yml']
@@ -22,6 +27,7 @@ jobs:
       - run: node scripts/sync-identity.mjs
         env:
           GH_TOKEN: ${{ github.token }}
+          IDENTITY_SOURCE_COMMIT: ${{ inputs.source_commit }}
       - name: Update generated Profile README when facts change
         run: |
           git config user.name 'roy-identity-bot'
