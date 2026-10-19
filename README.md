@@ -1,23 +1,26 @@
-## Hi, I'm Roy 👋
+<!-- Generated from RoyWG925/builder-context. Edit canonical JSON, not this file. Revision: 24ebcc124bdd0ff3a11389f6f9c73e73f220d29fac2371fed3a63eb4fc76b068 -->
+## Hi, I'm Roy Wang
 
-Product-minded engineer from Taiwan, building AI-powered tools and interactive web apps.
+Product-minded engineer building AI-powered tools and interactive web apps.
 
 ### What I build
-- **AI tools, end to end**: model, backend and the interface people actually touch
-- **NLP for messy real-world text**, especially Chinese
-- **Interactive web experiences** with Three.js / WebGL when a plain UI isn't enough
+- Applied NLP
+- Full-Stack Apps
+- Interactive UI
 
-### Featured
-- **[Market Sentiment × TAIEX](https://github.com/RoyWG925/ptt-sentiment-stock-analysis)**: Fine-tuned Chinese BERT on stock-forum posts and ran an event study on how online sentiment tracks the market. 3-person team research, NTNU.
-- **[Is my major worth it?](https://github.com/RoyWG925/taiwan-uni-cp-value)**: Interactive dashboard comparing admission scores with graduate salaries across 1,787 university programs in Taiwan.
-- **[NUCLEUS.IO](https://github.com/RoyWG925/nucleus-io)** · [live](https://nucleus-io.vercel.app): A flyable 3D portfolio built with Three.js, custom GLSL shaders and procedural audio.
+### Featured work
+- **[VIRAL - One whisper, a living town](https://github.com/RoyWG925/viral-town)** · [demo](https://viral-town.vercel.app): AI-driven town simulation: whisper a sentence to a resident and watch its consequences. Gemma on AMD generates character reactions; a deterministic engine validates actions and records causal events.
+- **[Market Sentiment x TAIEX](https://github.com/RoyWG925/ptt-sentiment-stock-analysis)**: Three-person NTNU event study of PTT Stock sentiment and the TAIEX. Fine-tuned multilingual BERT and evaluated sentiment structure around the April 2025 tariff shock.
+- **[Is my major worth it?](https://github.com/RoyWG925/taiwan-uni-cp-value)**: Interactive dashboard comparing Taiwan university admission scores with graduate salaries across 1,787 programs, with field-level salary distributions and methodology notes.
+- **[NUCLEUS.IO](https://github.com/RoyWG925/nucleus-io)** · [demo](https://nucleus-io.vercel.app): Flyable 3D portfolio built with Three.js, custom GLSL post-processing, procedural audio, and interactive project orbs.
 
-### Currently
-- Building a personal-context app that turns what you save into a map of how you think.
-- Preparing for AMD Developer Hackathon ACT III (Oct 2026) with team *sudo studio*.
+### Hackathons
+- AMD Developer Hackathon ACT III · Track 4 - Create a New Kind of Experience: VIRAL's public README identifies this hackathon and track. Official submission and competition results remain unconfirmed.
 
 ### Stack
-Python · PyTorch · Hugging Face · TypeScript · React · Astro · Three.js · Supabase · Vercel
+Python · PyTorch · Hugging Face Transformers · BERT fine-tuning · pandas · Jupyter · React · Astro · Node.js · Firebase · Supabase · Vercel · Three.js / WebGL · GLSL shaders · Framer Motion · CSS animation · Git / GitHub · Cursor · Claude Code · GitHub Copilot · Godot · Figma · Docker
 
 ### Contact
 [Portfolio](https://roywg925.github.io/portfolio-astro/) · [LinkedIn](https://www.linkedin.com/in/roywg925/) · jg971402@gmail.com
+
+AI agents: read [AI_CONTEXT.md](https://github.com/RoyWG925/builder-context/blob/main/AI_CONTEXT.md) for verified facts, attribution limits and evidence.

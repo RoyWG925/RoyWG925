@@ -1,0 +1,33 @@
+name: Sync Roy Identity OS
+on:
+  schedule:
+    - cron: '35 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/sync-identity.mjs', '.github/workflows/sync-identity.yml']
+permissions:
+  contents: write
+concurrency:
+  group: profile-identity-sync
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: node scripts/sync-identity.mjs
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Update generated Profile README when facts change
+        run: |
+          git config user.name 'roy-identity-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'Sync profile from confirmed Roy Identity OS data'
+            git push
+          fi
